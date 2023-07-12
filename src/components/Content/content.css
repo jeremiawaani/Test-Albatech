@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  /* position: relative;
+  top: 100px; */
+}
+
+.wrap_tagline {
+  /* margin-top: 250px; */
+}
+
+.hero1 {
+  margin-top: 121px;
+  width: 841px;
+  height: 474px;
+  margin-left: 651px;
+}
+
+.tagline {
+  position: absolute;
+  margin-left: 183px;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.tagline_child {
+  font-weight: 400;
+}
+
+.wrap_package {
+  margin-top: 150px;
+  display: flex;
+  /* align-self: center; */
+  flex-direction: column;
+  /* background-color: #fff000; */
+}
+
+.title_package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text_complete {
+  font-size: 18px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+.text_from {
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 0px 2px 5px #9b9393;
+}
+
+.package {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-around;
+  width: 1500px;
+}
+
+.package :hover {
+  border: 2px solid #b4e513;
+  /* cursor: pointer; */
+}
+
+.wrap_tech {
+  margin-top: 60px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  /* justify-content: space-around; */
+  width: 1000px;
+}
+
+.wrap_progress {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: #272727;
+  height: 320px;
+  width: 100%;
+}
+
+.txt_progress {
+  align-self: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffce07;
+  width: 682px;
+  /* height: 70px; */
+  margin-top: 10px;
+}
+
+.prog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.jumlah_prog {
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+}
+.title_prog {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.wrap_progress_detil {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+  /* width: 1000px; */
+}
+
+.wrapper_portfolio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.wrap_portfolio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrap_portfolio :hover {
+  border: 2px solid #ffce07;
+  margin: 0;
+  padding: 0;
+}
+
+.btn_learn {
+  height: 59px;
+  width: 188px;
+  border-radius: 30px;
+  background-color: #ffce07;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  margin-bottom: 100px;
+}

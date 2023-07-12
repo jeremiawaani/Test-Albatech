@@ -1,0 +1,50 @@
+.wrap_port {
+  display: flex;
+  border: 2px solid #c4c4c4;
+  flex-direction: column;
+  width: 345px;
+  height: 418px;
+  border-radius: 12px;
+  /* padding: 2px; */
+}
+
+/* .wrap_port :hover{
+    border: 2px solid #FFCE07;
+} */
+
+.txt_title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffce07;
+}
+
+.paragraf {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+.title_portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.text_portfolio {
+  font-size: 18px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+.text_software {
+  font-size: 36px;
+  font-weight: 700;
+}
